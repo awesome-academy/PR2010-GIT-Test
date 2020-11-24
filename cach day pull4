@@ -1,0 +1,11 @@
+B1: Fork (lấy link Fork)
+B2: Clone bằng lệnh: git clone remote_url
+b3: đẫn đường tới clone
+b4: add remote bằng lệnh: git remote add awesome remote_url
+b5: tạo file document này
+b6: xác định nhánh bằng lệnh: git branch
+b7: tạo và chuyển sang nhánh mới bằng lệnh: git checkout -b tên nhánh
+b8: add file ở B5
+b9: tạo commit bằng lệnh: git commit -m "tên commit"
+b10: push lên bằng lệnh: git push origin (tên nhánh)
+
