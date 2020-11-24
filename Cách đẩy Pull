@@ -1,0 +1,20 @@
+các bước tạo pull request như sau:
+Bước 1: Fork ở trên Github để tạo bản sao của Repo chung về  github cá nhân (repo cá nhân)
+Bước 2: lấy code từ github về lacal cá nhân bằng lệnh: git clone remote_url 
+lưu ý remote_url được lấy ở github cá nhân sau khi đã Fork 
+Bước 3: Add remote (tạo kết nối giữa Local và Repo chung) bằng lệnh: git remote add tên remote remote_url
+lưu ý remote_url ở đây là link được lấy ở Github ban đầu (repo chung)
+bước 4: tạo nhánh mới 
+trước khi tạo nhánh mới cần kiểm tra nhánh đang đứng bằng lệnh:git branch
+nếu đang ở nhánh MAIN  thì có thể tạo nhánh mới bằng lệnh: git checkout -b (tên nhánh nên đặt theo ý tưởng liên quan tới cv)
+
+Bước 5: 
+thực hiện việc tao File, Coding trên thư mục vừa Clone.
+
+Bước 6:  Add các file vừa tạo bằng lệnh: git add -A 
+hoặc: git add .
+
+Bước 7 : tạo commit bằng lệnh: git commit -m (tên commit)
+
+Bước 8: đẩy pull bằng lệnh : git push origin (tên nhánh)
+
