@@ -1,0 +1,12 @@
+CÁC BƯỚC TẠO PULL REQUEST NHƯ SAU: 
+B1: FORK lấy đường link giao thức trên github
+B2: Clone bằng lệnh git clone remote_url (có thể tạo tên Foder)
+B3: dẫn đường làm việc tới Foder vừa tạo bằng lệnh: cd tên foder
+B4:  Add remote bằng lệnh: git remote add awesome remote_url
+B5: xác định nhánh làm việc bằng lệnh: git branch 
+lưu ý mặc định nhánh chính là Main không được thao tác trên nhánh main yêu cầu lập nhánh mới.
+B6: lập và chuyển sang nhánh mới bằng lệnh: git checkout -b (tên nhánh)
+B7: Add các folder đã tạo bằng lệnh : git add -A hoặc git add .
+B8: Tạo commit bằng lệnh: git commit -m "tên commit"
+B9: đẩy pull request lên bằng lệnh: git push origin (tên nhánh đã tạo bên trên)
+END
