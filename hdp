@@ -1,0 +1,16 @@
+fork
+clone: git clone remote_url
+tro toi thu muc
+add remote: git remote add awesome remote_url
+check branch: git branch
+tao branch moi: git checkout -b 
+tao file: touch "ten"
+add file: git add . or git add -A
+commit: git commit -m "ten"
+push: git push origin ten nhanh moi
+ git branch
+git checkout main
+git pull awesome main
+git checkout nhanh
+git rebase main
+
