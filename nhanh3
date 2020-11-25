@@ -14,4 +14,3 @@ git pull awesome main
 git checkout nhanh
 git status
 git rebase main
-
