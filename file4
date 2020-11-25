@@ -1,0 +1,16 @@
+fork
+clone: git clone fork URL
+cd foder
+git remote add awesome URL
+git branch
+git checkout -b nhanh4
+touch file4
+git add . or git add -A
+git commit -m "hdp4"
+git push origin nhanh4
+git branch
+git checkout mian
+git pull awesome main
+git checkout nhanh4
+git rebase main
+
