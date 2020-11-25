@@ -1,0 +1,16 @@
+fork
+clone: git clone URL FORK
+dan toi foder: cd tenfoder
+add remote: git remote add awesome URL repochung
+git branch
+git checkour -b nhanh5
+touch "file5"
+git add .
+git commit -m "hdp5"
+git push origin nhanh5
+git branch
+git checkout main
+git pull awesome main
+git checkout nhanh5
+git rebase main
+
