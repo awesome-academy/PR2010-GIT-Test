@@ -1,0 +1,17 @@
+sau khi day pull lan thu 1 chung ta se co commit thu 1
+sau khi day lai  pull lan thu 2 chung ta se co commit thu 2
+khi co nhieu hon 1 commit chung ta can gop cac commit do lai voi nhau theo cac buoc nhu sau:
+b1: kiem tra log xem co bao nhieu commit can phai gop bang lenh: git log --oneline
+*luu y so luong commit can gop se  duoc tinh tu commit merge gan nhat do len
+b2: su dung lenh: git rebase -i HEAD~so luong commit viet lien
+b3: keep pick dau tien, cac pick tiep theo doi pick thanh "s"
+ ctrl +x 
+ y
+ enter
+b4: lua chon ten commit muon giu lai them dau "#" vao truoc dau cac commit khong SD nua.
+ctrl X
+y
+enter
+(de save lai cac thu m vua viet)
+
+b5: kiem tra lai log xem da gop dung chua
